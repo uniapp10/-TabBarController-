@@ -1,5 +1,5 @@
-# -TabBarController-
-一句话实现闲鱼/转转TabBarController的效果,非常方便.
+# -一句话实现闲鱼/转转中间按钮突出效果-
+项目中实现了闲鱼/转转TabBarController的效果,复用非常方便.
 使用方式:
 
 1在tabBarController的viewDidLoad方法中,添加如下代码:
