@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5307C6B91DFCE2FF00EFC93B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6B81DFCE2FF00EFC93B /* main.m */; };
+		5307C6BC1DFCE2FF00EFC93B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6BB1DFCE2FF00EFC93B /* AppDelegate.m */; };
+		5307C6C41DFCE2FF00EFC93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5307C6C31DFCE2FF00EFC93B /* Assets.xcassets */; };
+		5307C6C71DFCE2FF00EFC93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307C6C51DFCE2FF00EFC93B /* LaunchScreen.storyboard */; };
+		5307C6D51DFCE67D00EFC93B /* GXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6D41DFCE67D00EFC93B /* GXTabBarController.m */; };
+		5307C6D81DFCE69500EFC93B /* GXCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6D71DFCE69500EFC93B /* GXCustomTabBar.m */; };
+		5307C6DB1DFCE6A000EFC93B /* GXCustomTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6DA1DFCE6A000EFC93B /* GXCustomTabBarButton.m */; };
+		5307C6E01DFCEA2000EFC93B /* GXHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6DF1DFCEA2000EFC93B /* GXHomeController.m */; };
+		5307C6E31DFCEA3900EFC93B /* GXDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6E21DFCEA3900EFC93B /* GXDiscoverController.m */; };
+		5307C6E61DFCEA5100EFC93B /* GXPlusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6E51DFCEA5100EFC93B /* GXPlusController.m */; };
+		5307C6E91DFCEA9F00EFC93B /* GXMsgController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6E81DFCEA9F00EFC93B /* GXMsgController.m */; };
+		5307C6EC1DFCEAAC00EFC93B /* GXMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6EB1DFCEAAC00EFC93B /* GXMineController.m */; };
+		5307C6EF1DFCEB7800EFC93B /* GXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6EE1DFCEB7800EFC93B /* GXNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5307C6B41DFCE2FF00EFC93B /* 类闲鱼UITabBarController的实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "类闲鱼UITabBarController的实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5307C6B81DFCE2FF00EFC93B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5307C6BA1DFCE2FF00EFC93B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5307C6BB1DFCE2FF00EFC93B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5307C6C31DFCE2FF00EFC93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5307C6C61DFCE2FF00EFC93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5307C6C81DFCE2FF00EFC93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5307C6D31DFCE67D00EFC93B /* GXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXTabBarController.h; sourceTree = "<group>"; };
+		5307C6D41DFCE67D00EFC93B /* GXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXTabBarController.m; sourceTree = "<group>"; };
+		5307C6D61DFCE69500EFC93B /* GXCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXCustomTabBar.h; sourceTree = "<group>"; };
+		5307C6D71DFCE69500EFC93B /* GXCustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXCustomTabBar.m; sourceTree = "<group>"; };
+		5307C6D91DFCE6A000EFC93B /* GXCustomTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXCustomTabBarButton.h; sourceTree = "<group>"; };
+		5307C6DA1DFCE6A000EFC93B /* GXCustomTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXCustomTabBarButton.m; sourceTree = "<group>"; };
+		5307C6DC1DFCE8E400EFC93B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5307C6DE1DFCEA2000EFC93B /* GXHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXHomeController.h; sourceTree = "<group>"; };
+		5307C6DF1DFCEA2000EFC93B /* GXHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXHomeController.m; sourceTree = "<group>"; };
+		5307C6E11DFCEA3900EFC93B /* GXDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXDiscoverController.h; sourceTree = "<group>"; };
+		5307C6E21DFCEA3900EFC93B /* GXDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXDiscoverController.m; sourceTree = "<group>"; };
+		5307C6E41DFCEA5100EFC93B /* GXPlusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXPlusController.h; sourceTree = "<group>"; };
+		5307C6E51DFCEA5100EFC93B /* GXPlusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXPlusController.m; sourceTree = "<group>"; };
+		5307C6E71DFCEA9F00EFC93B /* GXMsgController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXMsgController.h; sourceTree = "<group>"; };
+		5307C6E81DFCEA9F00EFC93B /* GXMsgController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXMsgController.m; sourceTree = "<group>"; };
+		5307C6EA1DFCEAAC00EFC93B /* GXMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXMineController.h; sourceTree = "<group>"; };
+		5307C6EB1DFCEAAC00EFC93B /* GXMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXMineController.m; sourceTree = "<group>"; };
+		5307C6ED1DFCEB7800EFC93B /* GXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXNavigationController.h; sourceTree = "<group>"; };
+		5307C6EE1DFCEB7800EFC93B /* GXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5307C6B11DFCE2FF00EFC93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5307C6AB1DFCE2FF00EFC93B = {
+			isa = PBXGroup;
+			children = (
+				5307C6B61DFCE2FF00EFC93B /* 类闲鱼UITabBarController的实现 */,
+				5307C6B51DFCE2FF00EFC93B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5307C6B51DFCE2FF00EFC93B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5307C6B41DFCE2FF00EFC93B /* 类闲鱼UITabBarController的实现.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5307C6B61DFCE2FF00EFC93B /* 类闲鱼UITabBarController的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				5307C6D11DFCE5C200EFC93B /* Controller */,
+				5307C6D01DFCE5BA00EFC93B /* View */,
+				5307C6CE1DFCE5A700EFC93B /* Model */,
+				5307C6D21DFCE5CC00EFC93B /* Other */,
+				5307C6BA1DFCE2FF00EFC93B /* AppDelegate.h */,
+				5307C6BB1DFCE2FF00EFC93B /* AppDelegate.m */,
+				5307C6C31DFCE2FF00EFC93B /* Assets.xcassets */,
+				5307C6C51DFCE2FF00EFC93B /* LaunchScreen.storyboard */,
+				5307C6C81DFCE2FF00EFC93B /* Info.plist */,
+				5307C6B71DFCE2FF00EFC93B /* Supporting Files */,
+			);
+			path = "类闲鱼UITabBarController的实现";
+			sourceTree = "<group>";
+		};
+		5307C6B71DFCE2FF00EFC93B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5307C6B81DFCE2FF00EFC93B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5307C6CE1DFCE5A700EFC93B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5307C6D91DFCE6A000EFC93B /* GXCustomTabBarButton.h */,
+				5307C6DA1DFCE6A000EFC93B /* GXCustomTabBarButton.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5307C6D01DFCE5BA00EFC93B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5307C6D61DFCE69500EFC93B /* GXCustomTabBar.h */,
+				5307C6D71DFCE69500EFC93B /* GXCustomTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5307C6D11DFCE5C200EFC93B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5307C6D31DFCE67D00EFC93B /* GXTabBarController.h */,
+				5307C6D41DFCE67D00EFC93B /* GXTabBarController.m */,
+				5307C6ED1DFCEB7800EFC93B /* GXNavigationController.h */,
+				5307C6EE1DFCEB7800EFC93B /* GXNavigationController.m */,
+				5307C6DD1DFCE9CD00EFC93B /* SubVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5307C6D21DFCE5CC00EFC93B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5307C6DC1DFCE8E400EFC93B /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5307C6DD1DFCE9CD00EFC93B /* SubVC */ = {
+			isa = PBXGroup;
+			children = (
+				5307C6DE1DFCEA2000EFC93B /* GXHomeController.h */,
+				5307C6DF1DFCEA2000EFC93B /* GXHomeController.m */,
+				5307C6E11DFCEA3900EFC93B /* GXDiscoverController.h */,
+				5307C6E21DFCEA3900EFC93B /* GXDiscoverController.m */,
+				5307C6E41DFCEA5100EFC93B /* GXPlusController.h */,
+				5307C6E51DFCEA5100EFC93B /* GXPlusController.m */,
+				5307C6E71DFCEA9F00EFC93B /* GXMsgController.h */,
+				5307C6E81DFCEA9F00EFC93B /* GXMsgController.m */,
+				5307C6EA1DFCEAAC00EFC93B /* GXMineController.h */,
+				5307C6EB1DFCEAAC00EFC93B /* GXMineController.m */,
+			);
+			name = SubVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5307C6B31DFCE2FF00EFC93B /* 类闲鱼UITabBarController的实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5307C6CB1DFCE2FF00EFC93B /* Build configuration list for PBXNativeTarget "类闲鱼UITabBarController的实现" */;
+			buildPhases = (
+				5307C6B01DFCE2FF00EFC93B /* Sources */,
+				5307C6B11DFCE2FF00EFC93B /* Frameworks */,
+				5307C6B21DFCE2FF00EFC93B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类闲鱼UITabBarController的实现";
+			productName = "类闲鱼UITabBarController的实现";
+			productReference = 5307C6B41DFCE2FF00EFC93B /* 类闲鱼UITabBarController的实现.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5307C6AC1DFCE2FF00EFC93B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GX;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zhudong;
+				TargetAttributes = {
+					5307C6B31DFCE2FF00EFC93B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5307C6AF1DFCE2FF00EFC93B /* Build configuration list for PBXProject "类闲鱼UITabBarController的实现" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5307C6AB1DFCE2FF00EFC93B;
+			productRefGroup = 5307C6B51DFCE2FF00EFC93B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5307C6B31DFCE2FF00EFC93B /* 类闲鱼UITabBarController的实现 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5307C6B21DFCE2FF00EFC93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5307C6C71DFCE2FF00EFC93B /* LaunchScreen.storyboard in Resources */,
+				5307C6C41DFCE2FF00EFC93B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5307C6B01DFCE2FF00EFC93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5307C6D51DFCE67D00EFC93B /* GXTabBarController.m in Sources */,
+				5307C6D81DFCE69500EFC93B /* GXCustomTabBar.m in Sources */,
+				5307C6BC1DFCE2FF00EFC93B /* AppDelegate.m in Sources */,
+				5307C6EF1DFCEB7800EFC93B /* GXNavigationController.m in Sources */,
+				5307C6DB1DFCE6A000EFC93B /* GXCustomTabBarButton.m in Sources */,
+				5307C6E61DFCEA5100EFC93B /* GXPlusController.m in Sources */,
+				5307C6B91DFCE2FF00EFC93B /* main.m in Sources */,
+				5307C6E31DFCEA3900EFC93B /* GXDiscoverController.m in Sources */,
+				5307C6EC1DFCEAAC00EFC93B /* GXMineController.m in Sources */,
+				5307C6E01DFCEA2000EFC93B /* GXHomeController.m in Sources */,
+				5307C6E91DFCEA9F00EFC93B /* GXMsgController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5307C6C51DFCE2FF00EFC93B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5307C6C61DFCE2FF00EFC93B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5307C6C91DFCE2FF00EFC93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5307C6CA1DFCE2FF00EFC93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5307C6CC1DFCE2FF00EFC93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/zhudong/Documents/Demo/2016.12.4以后/类闲鱼UITabBarController的实现/类闲鱼UITabBarController的实现/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = "类闲鱼UITabBarController的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.91guoxin.www.---UITabBarController---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5307C6CD1DFCE2FF00EFC93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/zhudong/Documents/Demo/2016.12.4以后/类闲鱼UITabBarController的实现/类闲鱼UITabBarController的实现/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = "类闲鱼UITabBarController的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.91guoxin.www.---UITabBarController---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5307C6AF1DFCE2FF00EFC93B /* Build configuration list for PBXProject "类闲鱼UITabBarController的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5307C6C91DFCE2FF00EFC93B /* Debug */,
+				5307C6CA1DFCE2FF00EFC93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5307C6CB1DFCE2FF00EFC93B /* Build configuration list for PBXNativeTarget "类闲鱼UITabBarController的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5307C6CC1DFCE2FF00EFC93B /* Debug */,
+				5307C6CD1DFCE2FF00EFC93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5307C6AC1DFCE2FF00EFC93B /* Project object */;
+}

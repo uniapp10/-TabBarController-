@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  类闲鱼UITabBarController的实现
+//
+//  Created by zhudong on 2016/12/11.
+//  Copyright © 2016年 zhudong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//直播按钮title的Font
+#define TitleFont 10
+//直播按钮title的Color
+#define TitleColor [UIColor darkGrayColor]
+//直播按钮title选中的Color
+#define TitleSelectedColor [UIColor orangeColor]
+//直播按钮title的高度
+#define TitleH 15
+//直播按钮向上偏移距离
+#define OffsetY 20
+//tabBar高度
+#define BtnH 49
+
+#define GXScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#endif /* PrefixHeader_pch */
