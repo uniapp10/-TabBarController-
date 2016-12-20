@@ -43,7 +43,11 @@
                 [subV removeFromSuperview];
             }
             self.index++;
-        }else if([subV isKindOfClass:NSClassFromString(@"_UIBarBackground")]){
+        }
+        else if([subV isKindOfClass:NSClassFromString(@"_UIBarBackground")]){
+            [subV removeFromSuperview];
+        }
+        else if ([subV isKindOfClass:[UIImageView class]] && (subV.frame.size.height < 5)){
             [subV removeFromSuperview];
         }
     }
@@ -55,10 +59,12 @@
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event{
     CGPoint convertPoint = [self convertPoint:point toView:self.customTabBarBtn];
+    CGPoint convertToSelf = [self convertPoint:point toView:self];
     if ([self.customTabBarBtn pointInside:convertPoint withEvent:event]) {
         return self.customTabBarBtn;
+    }else if ([self pointInside:convertToSelf withEvent:event]){
+        self.customTabBarBtn.selected = false;
     }
-    self.customTabBarBtn.selected = false;
     return [super hitTest:point withEvent:event];
 }
 @end

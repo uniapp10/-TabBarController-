@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B8158E45B8157E50AA8153196A6E21CC24CD0650",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B8158E45B8157E50AA8153196A6E21CC24CD0650" : 9223372036854775807,
+    "B68B1C5B1573AEA2C8F8E4ADE6B36DA86059859B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "08D91370-B125-40DF-AC9E-C6CE61FA2455",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B8158E45B8157E50AA8153196A6E21CC24CD0650" : "XianYu\/",
+    "B68B1C5B1573AEA2C8F8E4ADE6B36DA86059859B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "类闲鱼UITabBarController的实现",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "类闲鱼UITabBarController的实现\/类闲鱼UITabBarController的实现.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhudong10\/ZDZhiBoTableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B68B1C5B1573AEA2C8F8E4ADE6B36DA86059859B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhudong10\/-TabBarController-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B8158E45B8157E50AA8153196A6E21CC24CD0650"
+    }
+  ]
+}
