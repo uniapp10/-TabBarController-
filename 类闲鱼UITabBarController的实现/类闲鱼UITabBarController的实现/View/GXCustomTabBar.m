@@ -51,6 +51,8 @@
             [subV removeFromSuperview];
         }
     }
+    //解决navigationController采用pop方式跳转后, 系统会自动增加tabBarButton
+    self.index = 0;
 }
 - (void)btnClick: (GXCustomTabBarButton *) btn{
     btn.selected = true;
